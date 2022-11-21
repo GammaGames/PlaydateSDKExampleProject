@@ -1,6 +1,6 @@
 # Example Project
 
-This project contains the files to work with the Playdate SDK on Linux with VSCode. Talk about a niche! Included is a base game and build tasks made (by @SquidGodDev) and preset `.vscode` settings (by @Minalien)!
+This project contains the files to work with the Playdate SDK on Linux with VSCode. Talk about a niche! Included is a base game and build tasks made (by [@SquidGodDev](https://github.com/SquidGodDev)) and preset `.vscode` settings (by [@Minalien](https://github.com/Minalien))!
 
 ## Project Structure
 
