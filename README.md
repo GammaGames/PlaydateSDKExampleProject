@@ -12,3 +12,4 @@ I tried to structure the `source` folder so you could use this template as both 
 * [play.date/dev](https://play.date/dev/)
 * [Dev Forum](https://devforum.play.date/)
 * [Inside Playdate](https://sdk.play.date/1.12.3/Inside%20Playdate.html)
+* [Awesome Playdate](https://github.com/sayhiben/awesome-playdate)
