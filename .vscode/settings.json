@@ -1,8 +1,34 @@
 {
-  "Lua.runtime.version": "Lua 5.4",
-  "Lua.diagnostics.disable": ["undefined-global", "lowercase-global"],
-  "Lua.diagnostics.globals": ["playdate", "import"],
-  "Lua.runtime.nonstandardSymbol": ["+=", "-=", "*=", "/="],
-  "Lua.workspace.library": ["$PLAYDATE_SDK_PATH/CoreLibs"],
-  "Lua.workspace.preloadFileSize": 1000
+    "Lua.runtime.version": "Lua 5.4",
+    "Lua.diagnostics.globals": [
+        "playdate",
+        "json"
+    ],
+    "Lua.runtime.special": {
+        "import": "require"
+    },
+    "Lua.completion.requireSeparator": "/",
+    "Lua.diagnostics.libraryFiles": "Disable",
+    "Lua.runtime.nonstandardSymbol": [
+        "+=",
+        "-=",
+        "*=",
+        "/=",
+        "//=",
+        "%=",
+        "<<=",
+        ">>=",
+        "&=",
+        "|=",
+        "^="
+    ],
+    "Lua.workspace.library": [
+        "$PLAYDATE_SDK_PATH",
+        "playdate-type-annotations"
+    ],
+    "Lua.workspace.ignoreDir": [
+        ".vscode",
+        "Examples"
+    ],
+    "Lua.workspace.preloadFileSize": 10240
 }
